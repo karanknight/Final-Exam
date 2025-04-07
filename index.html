@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Exam Cafe</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Quicksand&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="home">
+      <img id="logo" src="images/logo.png" alt="coffee logo" />
+      <h1>The Exam Cafe</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="hero-section">
+      <img id="hero" src="images/hero.jpg" alt="cafe setting with tables" />
+    </div>
+
+    <div id="about">
+      <h1 class="section-headline">About</h1>
+      <div class="about-container row">
+        <div class="about-left col-6">
+          <img class="about-img" src="images/coffee-cup.jpg" alt="Coffee cup" />
+        </div>
+        <div class="about-right col-6">
+          <div class="about-text">
+            <h3>Open since 1972</h3>
+            <p>Our coffee is the best in the city. We've been here for over 50 years and we'll be proud to serve another 50!</p>
+          </div>
+          <img class="about-img" src="images/coffee-cup.jpg" alt="Coffee cup" />
+        </div>
+      </div>
+    </div>
+
+    <div id="gallery">
+      <h1 class="section-headline">Gallery</h1>
+      <div class="row">
+        <img class="gallery-img col-3" src="images/coffee-gallery-01.jpg" alt="Coffee with heart shaped foam" />
+        <img class="gallery-img col-3" src="images/coffee-gallery-02.jpg" alt="Coffee with heart shaped foam" />
+
+        <img class="gallery-img col-3" src="images/image1.jpg" alt="Coffee with heart shaped foam" />
+        <img class="gallery-img col-3" src="images/image2.jpg" alt="Coffee with heart shaped foam" />
+        <img class="gallery-img col-3" src="images/image3.jpg" alt="Coffee with heart shaped foam" />
+        <img class="gallery-img col-3" src="images/image4.jpg" alt="Coffee with heart shaped foam" />
+        <img class="gallery-img col-3" src="images/image5.jpg" alt="Coffee with heart shaped foam" />
+        <img class="gallery-img col-3" src="images/image6.jpg" alt="Coffee with heart shaped foam" />
+      </div>
+    </div>
+
+    <div id="contact">
+      <h1 class="section-headline">Contact</h1>
+      <div class="row">
+        <div class="contact-form col-5">
+          <h3 id="order-up">Place an Order</h3>
+          <form action="action-page.php">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..." />
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="john@mail.com" />
+
+            <label for="order">Your Order Here</label>
+            <input type="text" id="order" name="order" placeholder="Your feedback is important to us" />
+
+            <input type="submit" value="submit" />
+          </form>
+        </div>
+
+        <div class="map col-7">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5798.797329247888!2d-80.40920445741416!3d43.38959614959701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b9018e9e89adf%3A0x2043c24369ede07e!2sConestoga%20College%20Kitchener%20-%20Doon%20Campus!5e0!3m2!1sen!2sca!4v1648232954364!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <h3 id="footer-heading">Check us out on social media</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/facebook.png" alt="Facebook logo" width="40" />
+        </a>
+        <a href="https://x.com" target="_blank">
+          <img src="images/twitter.png" alt="Twitter icon" width="40" />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="images/instagram.png" alt="Instagram icon" width="40" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
